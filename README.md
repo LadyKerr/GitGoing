@@ -17,7 +17,7 @@ git config --global user.email "Your Email"
 > 💡 This will create a copy of the repository in your GitHub account.
 
 
-4. Then, start by cloning the forked repository to your local machine.
+4. Then, clone the forked repository to your local machine.
     
 ```bash
     git clone https://github.com/YourHandle/GitGoing.git
