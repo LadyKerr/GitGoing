@@ -43,7 +43,7 @@ git switch <your-new-branch-name>
 ### Step 2: Make changes
 
 You can add a new file, edit an existing file, or delete a file.
-To keep things simple, let's edit the `index.html` file by changing the name to "GitGoing" on line 10.
+To keep things simple, let's edit the `index.html` file by changing the name to "GitGoing-YourLastName" on line 10.
 
 ### Step 3: Stage your changes
 
