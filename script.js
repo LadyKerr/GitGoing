@@ -20,7 +20,7 @@ function addItem(text) {
     item.innerText = text;
 
     var deleteButton = document.createElement('button');
-    deleteButton.innerText = 'Delete';
+    deleteButton.innerText = 'Delete1';
     deleteButton.addEventListener('click', function() {
         list.removeChild(item);
         saveTodos();
@@ -33,7 +33,7 @@ function addItem(text) {
 
 function saveTodos() {
     var todos = Array.from(document.getElementById('todo-list').children).map(function(item) {
-        return item.innerText.replace('Delete', '');
+        return item.innerText.replace('Delete1', '');
     });
     localStorage.setItem('todos', JSON.stringify(todos));
 }
