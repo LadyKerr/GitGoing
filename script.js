@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     todos.forEach(addItem);
 });
 
+
 document.getElementById('add-todo').addEventListener('click', function() {
     var value = document.getElementById('todo-input').value;
     if (value) {
