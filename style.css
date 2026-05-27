@@ -19,7 +19,7 @@ body {
 
 #todo-list li {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     margin-bottom: 10px;
     position: relative;
 }
