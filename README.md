@@ -45,6 +45,8 @@ git switch <your-new-branch-name>
 You can add a new file, edit an existing file, or delete a file.
 To keep things simple, let's edit the `index.html` file by changing the name to "GitGoing-YourLastName" on line 10.
 
+>**Note:** If Auto Save isn't on, you'll need to manually save the change (`Cmd + S` Mac or `Ctrl + S` Windows) before you can stage.
+
 ### Step 3: Stage your changes
 
 Once you update the name, stage your changes using the following command:
